@@ -1,0 +1,11 @@
+---
+deployment:
+  tasks:
+    # Adjust DEPLOY_TO to match your actual public_html path (usually /home/pwaniyou/public_html)
+    - export DEPLOY_TO=/home/pwaniyou/public_html
+    # Clear old files safely (removes everything in public_html)
+    - /bin/rm -rf $DEPLOY_TO/* $DEPLOY_TO/.??*
+    # Copy the built dist/ folder contents
+    - /bin/cp -r dist/* $DEPLOY_TO/
+    # Copy any hidden files in dist/ (if any)
+    - /bin/cp -r dist/.* $DEPLOY_TO/ 2>/dev/null || true
