@@ -1,5 +1,6 @@
 import { Link, useNavigate, useParams } from "react-router-dom";
 import blogPosts from "../data/blogPosts";
+import SEO from "./SEO";
 
 export default function BlogCanvas() {
   const { slug } = useParams();
@@ -9,6 +10,11 @@ export default function BlogCanvas() {
   if (!post) {
     return (
       <section className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-kenya-black via-gray-900 to-black text-white px-6 text-center space-y-6">
+        <SEO 
+          title="Blog Post Not Found"
+          description="The blog post you're looking for could not be found. Explore other stories from Pwani Youth Network."
+          url={`https://pwaniyouthnetwork.org/blog/${slug}`}
+        />
         <p className="text-sm uppercase tracking-[0.6em] text-gray-400">
           Blog
         </p>
@@ -31,6 +37,16 @@ export default function BlogCanvas() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-gray-50 to-white">
+      <SEO 
+        title={post.title}
+        description={post.excerpt}
+        keywords={`${post.tags?.join(', ')}, Pwani Youth Network, coastal Kenya, youth empowerment`}
+        image={post.heroImage}
+        url={`https://pwaniyouthnetwork.org/blog/${post.slug}`}
+        type="article"
+        author={post.author}
+        publishedTime={post.date}
+      />
       <header className="sticky top-0 backdrop-blur-xl bg-white/80 border-b border-gray-100 z-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
           <Link

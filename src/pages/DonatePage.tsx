@@ -1,10 +1,17 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import SEO from "../components/SEO";
 import { Heart, CreditCard, Banknote, Users } from "lucide-react";
 
 export default function DonatePage() {
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Donate - Support Youth Empowerment"
+        description="Support Pwani Youth Network's mission to empower coastal Kenya youth. Your donation helps fund programs in health, education, climate action, and economic empowerment."
+        keywords="donate to youth organization, support coastal Kenya, youth empowerment donation, Kenya NGO donation, Pwani Youth Network support"
+        url="https://pwaniyouthnetwork.org/get-involved/donate"
+      />
       <Header />
       <main className="pt-28 sm:pt-32">
         <section className="bg-gradient-to-b from-gray-50 to-white py-16 sm:py-20">

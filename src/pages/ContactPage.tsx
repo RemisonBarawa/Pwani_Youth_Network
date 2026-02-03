@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import SEO from "../components/SEO";
 import {
   MapPin,
   Phone,
@@ -13,6 +14,12 @@ import {
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Contact Us"
+        description="Get in touch with Pwani Youth Network. Located in Mikindani, Mombasa. Phone: +254 729 747 555, Email: pwaniyouthnetwork@gmail.com. Connect with us on social media."
+        keywords="contact Pwani Youth Network, Mombasa office, youth organization contact, Kenya NGO contact"
+        url="https://pwaniyouthnetwork.org/get-involved/contact"
+      />
       <Header />
       <main className="pt-28 sm:pt-32">
         <section className="bg-gradient-to-b from-gray-50 to-white py-16 sm:py-20">

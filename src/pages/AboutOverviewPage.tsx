@@ -1,10 +1,17 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import SEO from "../components/SEO";
 import { Target, Heart, Users, Globe2 } from "lucide-react";
 
 export default function AboutOverviewPage() {
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="About Us - Overview"
+        description="Learn about Pwani Youth Network's mission to empower coastal Kenya youth. Founded in 2013, we've impacted 15,000+ youth across Mombasa, Kilifi & Kwale through innovative programs."
+        keywords="about Pwani Youth Network, youth organization Kenya, coastal development, community empowerment, grassroots organization"
+        url="https://pwaniyouthnetwork.org/about/overview"
+      />
       <Header />
       <main className="pt-28 sm:pt-32">
         <section className="bg-gradient-to-b from-gray-50 to-white py-16 sm:py-20">

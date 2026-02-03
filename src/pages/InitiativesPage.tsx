@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import SEO from "../components/SEO";
 import Programs from "../components/Programs";
 import Projects from "../components/Projects";
 import { Trophy, Recycle, Shield } from "lucide-react";
@@ -7,6 +8,12 @@ import { Trophy, Recycle, Shield } from "lucide-react";
 export default function InitiativesPage() {
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Our Initiatives"
+        description="Explore Pwani Youth Network's programs and projects empowering coastal Kenya youth. From SRHR education to climate action, economic empowerment to digital skills training."
+        keywords="youth programs Kenya, coastal development projects, SRHR education, climate action initiatives, economic empowerment, digital skills training"
+        url="https://pwaniyouthnetwork.org/initiatives"
+      />
       <Header />
       <main className="pt-28 sm:pt-32">
         <section className="bg-gradient-to-b from-gray-50 to-white py-16 sm:py-20">

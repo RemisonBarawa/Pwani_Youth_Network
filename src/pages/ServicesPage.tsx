@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import SEO from "../components/SEO";
 
 const services = [
   {
@@ -48,6 +49,12 @@ const services = [
 export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-white">
+      <SEO 
+        title="Our Services"
+        description="Pwani Youth Network offers program design sprints, implementation partnerships, creative media services, and advisory training for youth empowerment in coastal Kenya."
+        keywords="youth services Kenya, program design, implementation partners, creative media, advisory training, coastal development services"
+        url="https://pwaniyouthnetwork.org/services"
+      />
       <Header />
       <main className="pt-28 sm:pt-32">
         <section className="bg-gradient-to-b from-kenya-black via-gray-900 to-black text-white py-16 sm:py-20">
