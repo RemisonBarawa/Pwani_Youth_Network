@@ -82,7 +82,9 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8 text-center">
           <p className="text-gray-400 text-sm">
             © {new Date().getFullYear()} Pwani Youth Network. All rights
-            reserved. | Mombasa • Kilifi • Kwale
+            reserved. | Mombasa • Kilifi • Kwale || Website designed & developed by 
+          <a href="https://remison-barawa-portfolio.netlify.app/" target="_blank" rel="noopener"> 
+            Remison Barawa</a>
           </p>
         </div>
       </div>
