@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 const slideshowImages = [
-  "https://res.cloudinary.com/dwhp5xrhn/image/upload/v1763730881/PYN_xfm1o3.jpg",
+  "https://res.cloudinary.com/dwhp5xrhn/image/upload/v1763787366/PYN_Logo_twjipo.png",
   "https://res.cloudinary.com/dwhp5xrhn/image/upload/v1763996070/Active_Youth_Voices_jamsrs.jpg",
   "https://res.cloudinary.com/dwhp5xrhn/image/upload/v1764071496/Blue_Economy_1_xh3r3k.jpg",
   "https://res.cloudinary.com/dwhp5xrhn/image/upload/v1764070966/Skills_Innovation_syvn4c.jpg",
