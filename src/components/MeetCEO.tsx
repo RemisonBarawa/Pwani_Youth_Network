@@ -65,15 +65,13 @@ export default function MeetCEO() {
               Leadership Spotlight
             </p>
             <h2 className="text-4xl font-bold text-kenya-black mb-6">
-              Centering young people as builders, peace-makers, and co-owners of
-              coastal development.
+              Alfred Sigo – Founder and Chief Executive Officer, Pwani Youth Network
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Aisha is a youth advocate, community mobilizer, and global policy
-              voice with over a decade championing SRHR, creative economies, and
-              climate-smart livelihoods. She convenes grassroots innovators with
-              public institutions to unlock dignified opportunities for every
-              young person across the Coast region.
+              Alfred Sigo is the passionate Founder and CEO of Pwani Youth Network, a youth-led organization empowering over 50,000 young people annually in Kenya’s coastal region.
+              Through innovative programs in health, livelihoods, climate action, and education, it drives community health initiatives, social accountability in facilities, and sustainable economic inclusion.
+              As a member of Kenya Red Cross, Global Opportunity Youth Network, Amnesty International Kenya, and UN Changemaker Agenda, Alfred advocates for the well-being of youth, adolescents, and women in Mombasa, Kilifi, and Kwale.
+              He established a youth empowerment hub featuring an art studio, podcast space, ICT lab, and youth-friendly health services reaching 5,000 annually, with ambitions to expand healthcare access, environmental sustainability, and employment opportunities for Kenyan youth nationwide.
             </p>
 
             <div className="space-y-6">

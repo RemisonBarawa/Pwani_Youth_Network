@@ -15,7 +15,7 @@ interface SEOProps {
 const defaultSEO = {
   title: "Pwani Youth Network - Empowering Coastal Kenya Youth Since 2013",
   description: "Grassroots organization empowering youth in Mombasa, Kilifi & Kwale through programs in health, education, climate action & economic empowerment. Join 15,000+ impacted youth.",
-  keywords: "youth empowerment, coastal Kenya, Mombasa, Kilifi, Kwale, SRHR, climate action, education, economic empowerment, grassroots organization, community development",
+  keywords: "pwani, youth empowerment, coastal Kenya, Mombasa, Kilifi, Kwale, SRHR, climate action, education, economic empowerment, grassroots organization, community development",
   image: "https://res.cloudinary.com/dwhp5xrhn/image/upload/v1763787366/PYN_Logo_twjipo.png",
   url: "https://pwaniyouthnetwork.org",
   type: "website",
