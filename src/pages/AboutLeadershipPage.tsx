@@ -10,7 +10,7 @@ function cl(path: string) {
 }
 
 const BOARD_MEMBERS = [
-  { name: "Mr George Ojow",  title: "Board Chair",   avatar: cl("v1775720972/Raphael_Kong_ani_cboavx.jpg") },
+  { name: "Mr George Ojow",  title: "Board Chair",   avatar: null },
   { name: "Mr James Nyaga",  title: "Board Member",  avatar: cl("v1775720987/James_Kinyua_vgineh.jpg") },
   { name: "Alice Achieng",   title: "Board Member",  avatar: null },
 ];
