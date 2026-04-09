@@ -9,6 +9,7 @@ import BlogPage from "./pages/BlogPage";
 import ContactPage from "./pages/ContactPage";
 import CreativesPage from "./pages/CreativesPage";
 import DonatePage from "./pages/DonatePage";
+import DonationCallbackPage from "./pages/DonationCallbackPage";
 import GalleryPage from "./pages/GalleryPage";
 import InitiativesPage from "./pages/InitiativesPage";
 import ReportsPage from "./pages/ReportsPage";
@@ -34,6 +35,7 @@ function App() {
       
       {/* Get Involved Routes */}
       <Route path="/get-involved/donate" element={<DonatePage />} />
+      <Route path="/donate/callback" element={<DonationCallbackPage />} />
       <Route path="/get-involved/contact" element={<ContactPage />} />
       
       {/* Blog Routes */}

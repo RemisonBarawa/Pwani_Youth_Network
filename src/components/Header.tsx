@@ -177,9 +177,11 @@ export default function Header() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="w-12 h-12 bg-gradient-to-br from-kenya-red to-kenya-green rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
-              <span className="text-white font-bold text-xl">PYN</span>
-            </div>
+            <img
+              src="https://res.cloudinary.com/dwhp5xrhn/image/upload/v1763787366/PYN_Logo_twjipo.png"
+              alt="Pwani Youth Network Logo"
+              className="w-12 h-12 object-contain group-hover:scale-110 transition-transform duration-300"
+            />
             <div>
               <h1 className="text-xl font-bold text-kenya-black group-hover:text-kenya-green transition-colors">
                 Pwani Youth Network

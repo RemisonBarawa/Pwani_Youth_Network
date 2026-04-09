@@ -5,9 +5,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-kenya-red to-kenya-green rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-xl">PYN</span>
-              </div>
+              <img
+                src="https://res.cloudinary.com/dwhp5xrhn/image/upload/v1763787366/PYN_Logo_twjipo.png"
+                alt="Pwani Youth Network Logo"
+                className="w-12 h-12 object-contain"
+              />
               <div>
                 <h3 className="text-xl font-bold">Pwani Youth Network</h3>
                 <p className="text-sm text-gray-400">
