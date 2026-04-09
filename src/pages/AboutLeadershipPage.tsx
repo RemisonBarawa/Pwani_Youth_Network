@@ -222,7 +222,7 @@ export default function AboutLeadershipPage() {
           <div className="max-w-5xl mx-auto">
 
             {/* ── BOARD ── */}
-            <TierLabel color="red" text="Board of Directors" />
+            <TierLabel color="red" text="Board of Advisors" />
             <VLine h="h-6" />
 
             <div className="flex justify-center gap-5 flex-wrap">

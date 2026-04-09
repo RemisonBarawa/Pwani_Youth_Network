@@ -1,7 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import BlogCanvas from "./components/BlogCanvas";
 import LandingPage from "./components/LandingPage";
-import Chatbot from "./components/Chatbot";
 import AboutLeadershipPage from "./pages/AboutLeadershipPage";
 import AboutOverviewPage from "./pages/AboutOverviewPage";
 import AboutStoryPage from "./pages/AboutStoryPage";
@@ -53,7 +52,6 @@ function App() {
       
       <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-      <Chatbot />
     </>
   );
 }
